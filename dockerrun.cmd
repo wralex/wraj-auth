@@ -1,0 +1,1 @@
+docker run -p 3080:3080 --env-file ./.env --name wraj_auth wrajauth:latest

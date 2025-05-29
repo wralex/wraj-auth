@@ -1,0 +1,33 @@
+{
+  "name": "wraj-auth",
+  "version": "1.0.0",
+  "description": "sample web app for msal-node",
+  "scripts": {
+    "dev": "npx tsx --watch ./src/bin/www",
+    "build": "npx tsc -p tsconfig.json",
+    "start": "node ./dist/bin/www"
+  },
+  "author": "William Alexander",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^3.5.3",
+    "@dotenvx/dotenvx": "^1.44.1",
+    "axios": "^1.9.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "debug": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^5.0.2",
+    "@types/express-session": "^1.18.1",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  }
+}
