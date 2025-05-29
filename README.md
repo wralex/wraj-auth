@@ -11,15 +11,15 @@ There would be a requirement to create a `.env` file in the root of the project.
 <blockquote><small><i>Replace any of the yellow highlighted fields with your own Azure App Registration values.</i></small></blockquote>
 <pre><code><i style="color: lightgrey">#.env</i>
 
-CLOUD_INSTANCE=https://login.microsoftonline.com/ <mark style="background-color: lightgreen;"><i># Keep trailing forward slash</i></mark>
+CLOUD_INSTANCE=https://login.microsoftonline.com/ <i># Keep trailing forward slash</i>
 
-PORT=3080 <mark style="background-color: lightgreen;"><i># This is the Port number on your local environment</i></mark>
-REDIRECT_URI=http://localhost:3080/auth/redirect <mark style="background-color: lightgreen;"><i># Adjust the Port number if different than above</i></mark>
-POST_LOGOUT_REDIRECT_URI=http://localhost:3080 <mark style="background-color: lightgreen;"><i># Adjust the Port number if different than above</i></mark>
+PORT=3080 <i># This is the Port number on your local environment</i>
+REDIRECT_URI=http://localhost:3080/auth/redirect <i># Adjust the Port number if different than above</i>
+POST_LOGOUT_REDIRECT_URI=http://localhost:3080 <i># Adjust the Port number if different than above</i>
 
-GRAPH_API_ENDPOINT=https://graph.microsoft.com/ <mark style="background-color: lightgreen;"><i># Keep trailing forward slash</i></mark>
+GRAPH_API_ENDPOINT=https://graph.microsoft.com/ <i># Keep trailing forward slash</i>
 
-EXPRESS_SESSION_SECRET=Express_Session_Secret <mark style="background-color: lightgreen;"><i># This is adjustable to whatever name you wish to give the Session</i></mark>
+EXPRESS_SESSION_SECRET=Express_Session_Secret <i># This is adjustable to whatever name you wish to give the Session</i>
 
 TENANT_ID=<mark><i>Azure Subscription Tenant ID</i></mark>
 CLIENT_ID=<mark><i>Azure Application Registration Client ID</i></mark>
